@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:cabal-sample"
+
+    - path: "app/Main.hs"
+      component: "cabal-sample:exe:cabal-sample"
+
+    - path: "test"
+      component: "cabal-sample:test:cabal-sample-test"
